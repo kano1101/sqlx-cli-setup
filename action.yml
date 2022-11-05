@@ -1,0 +1,10 @@
+name: "sqlx-cli-setup"
+author: "Akira Kano <a.kano1101@gmail.com>"
+description: "sqlx-cli-setup as light install"
+inputs:
+runs:
+  using: "docker"
+  image: "Dockerfile"
+branding:
+  icon: "file-plus"
+  color: "purple"
